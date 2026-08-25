@@ -1,0 +1,23 @@
+{
+  "seed_version": "1.2",
+  "lab_type": "progressive_ui",
+  "robots": [
+    {
+      "model": "KUKA_KR10_R1100-2",
+      "reach_mm": 1101,
+      "payload_kg": 11.1,
+      "axes": 6
+    },
+    {
+      "model": "ABB_IRB_120",
+      "reach_mm": 580,
+      "payload_kg": 3.0,
+      "axes": 6
+    }
+  ],
+  "notes": "Lightweight seed configuration file included with every educational fork. Not used by the live lab runtime.",
+  "fork_marker": "roboclaw-educational-seed",
+  "includes_history": true,
+  "includes_public_specs": true,
+  "includes_parent_toolkit": true
+}
